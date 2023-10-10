@@ -1,11 +1,10 @@
-import { Billboard as BillboardType } from "@/types";
+import { Billboard } from "@/types";
 
 interface BillboardProps {
-  data: BillboardType;
+  data: Billboard;
 }
 
 const Billboard: React.FC<BillboardProps> = ({ data }) => {
-  console;
   return (
     <div className="p-4 sm:p-6 lg:p-8 rounded-xl overflow-hidden">
       <div
